@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+*:focus {
+	outline: none !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+	width: 100%;
+	top: 0%;
+	padding: 8px 0px;
+	margin: 0%;
+	position: fixed;
+	text-align: center;
+	background: #333;
+	color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root {
+	margin-top: 79px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#newID {
+	margin: 10px 0;
+	padding: 10px;
+	border: 0;
+	border-radius: 10px;
+	box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
 }
 
-.App-link {
-  color: #61dafb;
+.listItem {
+	margin: 10px 0;
+	padding: 6px;
+	border: 0;
+	border-radius: 10px;
+	box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type="submit"] {
+	/* remove default behavior */
+	appearance: none;
+	-webkit-appearance: none;
+
+	border: none;
+	background-color: #3f51b5;
+	color: #fff;
+	font-weight: 500;
+	border-radius: 5px;
+	width: auto;
+}
+
+.createList {
+	padding: 10px;
+}
+
+.submitItem {
+	padding: 5px;
+}
+
+h2 {
+	text-align: center;
+	font-weight: bold;
+	color: green;
+}
+
+h4 {
+	text-align: left;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: circle;
+	text-align: left;
+}
+
+li {
+	line-height: 2;
+}
+
+#addListDiv {
+	background-color: lightblue;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.addItemDiv {
+	background-color: #dcf796;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	padding: 0px 10px 10px 15px;
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+
+#listsDiv {
+	background-color: #d4f779;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+label {
+	display: block;
+}
+
+body {
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: 1pt;
+	word-spacing: 2pt;
+	font-size: 12px;
+	text-align: left;
+	line-height: 1;
+	background: #ecf0f1;
 }
