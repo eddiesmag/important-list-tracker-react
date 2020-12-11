@@ -1,3 +1,7 @@
+# important-list-tracker-react
+
+This is a practice app for react component state.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
